@@ -14,6 +14,21 @@
   --color-palette-five: #FF679A;
 }
 
+@font-face {
+  font-family: "Cute Dino";
+  src: url(../fonts/Cute\ Dino.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: "Louis George Cafe Bold";
+  src: url(../fonts/Louis\ George\ Cafe\ Bold.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: "Louis George Cafe Light";
+  src: url(../fonts/Louis\ George\ Cafe\ Light.ttf) format('truetype');
+}
+
 /* Global component: navbar */
 nav.navbar {
   background-color: var(--color-palette-one);
