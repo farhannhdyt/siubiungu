@@ -182,12 +182,14 @@ footer.footer .footer-social-wrapper .footer-link:hover {
   font-size: 28px;
   line-height: calc(28px * 1.5);
   text-align: left;
+  font-weight: 600;
 }
 
 .banner.about .banner-subtext {
-  font-size: 20px;
-  line-height: calc(20px * 1.5);
+  font-size: 18px;
+  line-height: calc(18px * 1.5);
   text-align: left;
+  font-weight: 600;
 }
 
 .banner.about .banner-image-wrapper .banner-image {
@@ -230,8 +232,8 @@ footer.footer .footer-social-wrapper .footer-link:hover {
 }
 
 .banner.activities .banner-subtext {
-  font-size: 20px;
-  line-height: calc(20px * 1.5);
+  font-size: 18px;
+  line-height: calc(18px * 1.5);
   text-align: left;
   color: #2d1c2f;
 }
@@ -311,8 +313,8 @@ footer.footer .footer-social-wrapper .footer-link:hover {
 }
 
 .banner.our-store .banner-subtext {
-  font-size: 20px;
-  line-height: calc(20px * 1.5);
+  font-size: 18px;
+  line-height: calc(18px * 1.5);
   text-align: left;
   color: #ffffff;
 }
@@ -392,6 +394,11 @@ footer.footer .footer-social-wrapper .footer-link:hover {
   /* Navbar - End */
 
   /* Banner */
+  .banner {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
   .banner .banner-content-wrapper {
     row-gap: 32px;
   }
